@@ -1,0 +1,74 @@
+.index-cell {
+  color: #999;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.name-cell {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.score-badge {
+  background: #e8f0fe;
+  color: #1a73e8;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.status-badge.pass {
+  background-color: #e6f4ea;
+  color: #2e7d32;
+}
+
+.status-badge.fail {
+  background-color: #fce8e6;
+  color: #c62828;
+}
+
+.update-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.score-input {
+  width: 70px;
+  padding: 7px 10px;
+  border: 1.5px solid #d0d8e4;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.score-input:focus {
+  border-color: #1a73e8;
+}
+
+.update-btn {
+  padding: 7px 14px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.update-btn:hover {
+  background-color: #1558c0;
+}
